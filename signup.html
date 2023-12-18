@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Signup</title>
+          <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+          <header>
+            <h2 id="opennav" style="cursor: pointer; margin-top: 10px; width: 50px;">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 40 40"
+                        enable-background="new 0 0 40 40" xml:space="preserve">
+                        <g>
+                            <path d="M34.063,10.625H5.938C5.419,10.625,5,10.204,5,9.688C5,9.17,5.419,8.75,5.938,8.75h28.125C34.58,8.75,35,9.17,35,9.688
+                    C35,10.204,34.58,10.625,34.063,10.625" id="id_101" style="fill: rgb(255, 0, 0);"></path>
+                            <path d="M34.063,20.938H5.938C5.419,20.938,5,20.517,5,20c0-0.518,0.419-0.938,0.938-0.938h28.125C34.58,19.063,35,19.482,35,20
+                    C35,20.517,34.58,20.938,34.063,20.938" id="id_102" style="fill: rgb(255, 0, 0);"></path>
+                            <path d="M34.063,31.25H5.938C5.419,31.25,5,30.829,5,30.313c0-0.518,0.419-0.938,0.938-0.938h28.125
+                    c0.518,0,0.938,0.42,0.938,0.938C35,30.829,34.58,31.25,34.063,31.25" id="id_103"
+                                style="fill: rgb(255, 0, 0);"></path>
+                            <path d="M34.063,20.938H5.938C5.419,20.938,5,20.517,5,20c0-0.518,0.419-0.938,0.938-0.938h28.125C34.58,19.063,35,19.482,35,20
+                    C35,20.517,34.58,20.938,34.063,20.938" id="id_104" style="fill: rgb(255, 0, 0);"></path>
+                        </g>
+                    </svg>
+            </h2>
+                    <h1 class="opennav">Happy Hours.</h1>
+                    <div id="mySidenav" class="sidenav">
+                              <a href="javascript:void(0)" class="closebtn" id="closebtn">&times;</a>
+                              <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="soft.html">Soft drinks</a></li>
+                                        <li><a href="hard.html">Hard drinks</a></li>
+                                        <li><a href="signup.html">Signup</a></li>
+                                        <li><a href="help.html">Help</a></li>
+                                    </ul>
+                    </div>
+          </header>
+
+          <main>
+                    <section class="booking-form">
+                              <form action="" class="book-form">
+                                        <div class="field">
+                                                  <div class="txt">
+                                                            <label for="">Name</label>
+                                                  </div>
+                                                  <div class="input">
+                                                            <input type="text" name="name" id="name"
+                                                                      placeholder="Your Name...">
+
+                                                            <div class="error">
+                                                                      <span class="name-error"></span>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                                        <div class="field">
+                                                  <div class="txt">
+                                                            <label for="">Email</label>
+                                                  </div>
+                                                  <div class="input">
+                                                            <input type="text" name="email" id="email"
+                                                                      placeholder="Your E-mail...">
+
+                                                            <div class="error">
+                                                                      <span class="email-error"></span>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                                        <div class="field">
+                                                  <div class="txt">
+                                                            <label for="">Number</label>
+                                                  </div>
+                                                  <div class="input">
+                                                            <input type="text" name="number" id="number"
+                                                                      placeholder="Your Mobile Number...">
+
+                                                            <div class="error">
+                                                                      <span class="number-error"></span>
+                                                            </div>
+                                                  </div>
+                                        </div>
+
+                                        <div class="field">
+                                                  <div class="txt">
+                                                            <label for="">Address</label>
+                                                  </div>
+                                                  <div class="input">
+                                                            <textarea name="address" id="address" cols="30" rows="7"
+                                                                      placeholder="Enter Your Address"></textarea>
+
+                                                            <div class="error">
+                                                                      <span class="address-error"></span>
+                                                            </div>
+                                                  </div>
+                                        </div>
+
+                                        <div class="field">
+                                                  <div class="txt">
+                                                            <label for="">Payment</label>
+                                                  </div>
+                                                  <div class="input">
+                                                            <div class="card-number">
+                                                                      <input type="text" name="card-num" id="card-num"
+                                                                                placeholder="0000 0000 0000 0000">
+                                                            </div>
+
+                                                            <div class="error">
+                                                                      <span class="card-number-error"></span>
+                                                            </div>
+
+                                                            <div class="card-cvv">
+                                                                      <input type="text" name="card-cvv" id="card-cvv"
+                                                                                placeholder="---">
+                                                            </div>
+
+
+                                                            <div class="error">
+                                                                      <span class="card-cvv-error"></span>
+                                                            </div>
+                                                  </div>
+                                        </div>
+
+                                        <div class="field">
+                                                  <div class="input">
+                                                            <input type="submit" value="Purchase Item">
+                                                  </div>
+                                        </div>
+
+                              </form>
+                    </section>
+          </main>
+
+          <footer>
+                    <p>&copy; 2023 Happy Hours. All rights reserved by Dev Patel</p>
+          </footer>
+
+</body>
+
+<script src="jquery-3.7.1.min.js"></script>
+<script src="demo.js"></script>
+<script>
+          document.addEventListener('DOMContentLoaded', function () {
+                    const form = document.querySelector('.book-form');
+
+                    form.addEventListener('submit', function (event) {
+                              if (!validateForm()) {
+                                        event.preventDefault();
+                              }
+                    });
+
+                    function validateForm() {
+                              let valid = true;
+
+                              const nameInput = document.getElementById('name');
+                              const nameError = document.querySelector('.name-error');
+                              if (!nameInput.value.trim()) {
+                                        valid = false;
+                                        nameError.textContent = 'Please enter your name.';
+                              } else {
+                                        nameError.textContent = '';
+                              }
+
+                              const emailInput = document.getElementById('email');
+                              const emailError = document.querySelector('.email-error');
+                              const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                              if (!emailPattern.test(emailInput.value.trim())) {
+                                        valid = false;
+                                        emailError.textContent = 'Please enter a valid email address.';
+                              } else {
+                                        emailError.textContent = '';
+                              }
+
+                              const numberInput = document.getElementById('number');
+                              const numberError = document.querySelector('.number-error');
+                              if (!numberInput.value.trim()) {
+                                        valid = false;
+                                        numberError.textContent = 'Please enter your mobile number.';
+                              } else {
+                                        numberError.textContent = '';
+                              }
+
+                              const addressInput = document.getElementById('address');
+                              const addressError = document.querySelector('.address-error');
+                              if (!addressInput.value.trim()) {
+                                        valid = false;
+                                        addressError.textContent = 'Please enter your address / valid address.';
+                              } else {
+                                        addressError.textContent = '';
+                              }
+
+                              const cardNumberInput = document.getElementById('card-num');
+                              const cardCVVInput = document.getElementById('card-cvv');
+                              const cardNumberError = document.querySelector('.card-number-error');
+                              const cardCVVError = document.querySelector('.card-cvv-error');
+                              if (!cardNumberInput.value.trim() || !cardCVVInput.value.trim()) {
+                                        valid = false;
+                                        cardNumberError.textContent = 'Please enter card details.';
+                                        cardCVVError.textContent = 'Please enter card details.';
+                              } else {
+                                        cardNumberError.textContent = '';
+                                        cardCVVError.textContent = '';
+                              }
+
+                              return valid;
+                    }
+          });
+</script>
+
+</html>
